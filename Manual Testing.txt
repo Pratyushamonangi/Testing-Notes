@@ -34,6 +34,23 @@ Software Development Life Cycle(SDLC):
 Error : incorrect human action
 Defect/Bug/issue/incident : if expected and actual result varies 
 Failure : if the application 
+=================================================================================================== 
+
+Software testing
+> It is a combination of verification (Static Testing) & Validation (Dynamic Testing)
+Verification
+> are we developing the right product or not (in developing process)
+> review : examining project related works
+  Management review 	: deliverables are meet or not
+  Code review 		: review on developers code
+  Formal review		: systematic procedure and proper documentation or reviewed
+  Informal review	: Random review without proper plan
+  Technical review	: Technical discussion (tools) 
+Validation
+> whether developed product is right or wrong (after development of application)
+White box testing > unit testing > integration testing
+Black box testing > techniques
+
 
 
 
