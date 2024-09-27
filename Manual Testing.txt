@@ -1,0 +1,39 @@
+Manual Testing (functional, Non-functional), Safe Agile methodology, Live project, Project Selection.
+
+Manual Testing: 
+A Technique to test the software using functions and features of the application
+
+(We will test the application by navigating to phase by phase and check the application)
+
+In this testing a tester tests the software by following pre defined test cases
+
+Testing > Functional, Non-functional
+
+Functional Test planning:
+
+Software Application > Developed group of computer programs when we give data they produce output. Developer writes some programs and user interface(UI) is visible to us. 
+Ex: Flipkart and amazon
+
+Two types in software application 
+Project > Should be worked for limited number of audience
+ex: Capegemini org. portal
+Product > Should be worked for multiple set of audience
+ex: amazon
+
+App. is made based on req. 
+ex: Budget planning, Choose a land, purchase land, Approvals, Civil engineer contract, Interior designer contract, House warming.
+
+Software Development Life Cycle(SDLC):
+1.Req. Gathering : Business analyst goes to customer or client and gather the needs & req. (BA-Technical analyst, Functional Analyst)
+2.Planning 	 : Manager decides about planning
+3.Design  	 : High level(app. architecture is complex ex: amazon), Low level(app. is designed phase by phase) - Test matrix(test plan, test scenario, test case, test steps)
+4.Development 	 : Developer develops the code 
+5.Testing	 : Check if the req. is satisfied as per client we test it and report if any error
+6.Delivery & Maintenance : Once app. is delivered to customer & maintenance is provided further
+
+Error : incorrect human action
+Defect/Bug/issue/incident : if expected and actual result varies 
+Failure : if the application 
+
+
+
