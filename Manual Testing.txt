@@ -48,8 +48,68 @@ Verification
   Technical review	: Technical discussion (tools) 
 Validation
 > whether developed product is right or wrong (after development of application)
-White box testing > unit testing > integration testing
+White box testing > unit testing + integration testing
 Black box testing > techniques
+Types of Software testing
+
+1.Wbt* (white box testing) : unit + integration testing
+> It allows the tester to verify internal workings of the software system this includes analyzing the code, infrastructure, and integrations with the external system.
+> [time consuming process]
+
+2.Bbt* :
+> It is a type of software testing where the functionality of the software system is tested without looking at the internal workings or structures of the software system.
+> tester doesnt know internal functionality, input and output are verified.
+
+Bbt Techniques:
+types > 
+equilance class partition : identify data in form of sets and make sure each set will get same output instead of testing all values in group simply pick one value and verify it.
+Boundary value analysis	  : used to find errors at boundaries of input domain rather than finding those errors in entire input.
+Decision table analysis	  : test cases are designed to execute combination of inputs shown in decision table.
+
+username	password	login status
+crt		 crt		 success
+crt		 wrng		 fail
+wrong		 crct		 fail
+
+state transaction analysis : used to observe behaviour of application for diff. input conditions passed in sequence both +ve -ve behavior
+use case anaylsis 	   : for every action verify appropriate system response ex: atm card (atm machine response)
+
+3.Gray Box Testing : It is a software testing technique that is a combination of the Black Box Testing technique and the White Box Testing technique.
+The internal structure is partially known in Gray Box Testing.
+
+4.Unit Testing *: where the individual units or modules of the application are tested. It ensures that each module is working correctly.
+
+5.Integration Testing *: In Integration testing , combined individual units are tested as a group and expose the faults in the interaction between the integrated units.
+
+6.Smoke Testing *: where the basic functionality or feature of the application is tested as it ensures that the most important function works properly.
+
+7.User Acceptance Testing *: User acceptance testing is done by the client to certify that the system meets the requirements and works as intended. It is the final phase of testing before the product release.
+
+8.Interface Testing: checks the proper interaction between two different software systems.
+
+9.System Testing *: that is performed on the complete integrated system to evaluate the compliance of the system with the corresponding requirements.
+
+10.Regression Testing *: Regression testing is done to make sure that the code changes do not affect the existing functionality and the features of the application. It concentrates on whether all parts are working or not.
+
+11.Sanity Testing: Sanity testing is a subset of regression testing and is done to make sure that the code changes introduced are working as expected.
+
+12.Database Testing: that checks the schema, tables, etc of the database under test.
+
+13.Adhoc Testing: Adhoc testing also known as monkey testing or random testing is a type of software testing that does not follow any documentation or test plan to perform testing.
+
+14.Recovery Testing: Recovery testing is a type of software testing that verifies the software’s ability to recover from failures like hardware failures, software failures, crashes, etc.
+
+Software Testing Life Cycle (STLC)
+
+Planning : what should & shouldn't be tested (test manager/test lead)
+Analysis : understand the appl. (tester)
+Design   : Test matrix(test plan, test scenario, test case, test steps), +ve flow ,-ve flow (tester)
+Execution: check test cases and verifies the expected & actual output are same (tester)
+Closure  : documentation of everything is done (test manager/test lead)
+
+=============================================================================================================================
+
+
 
 
 
