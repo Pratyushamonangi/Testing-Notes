@@ -108,6 +108,42 @@ Execution: check test cases and verifies the expected & actual output are same (
 Closure  : documentation of everything is done (test manager/test lead)
 
 =============================================================================================================================
+Test plan:
+
+> A Test Plan is a document that outlines the scope, objective, and approach for testing a software application
+> Test Plan is a document that provides complete information about testing tasks related to a Software Project. It provides details like the scope of the testing, types of testing, objectives. It monitors the tests scheduled for execution after coding.
+
+The test team manager or test lead can prepare the test plan document. 
+What to test, when to test, who will test, and how to test will be defined in the test plan. 
+
+Test Scenario:
+
+>Test Scenario is a way to define all the ways to test an application. It is a single statement to cover all ways to test an application.
+
+Examples of Test Scenarios:
+
+Validate if the Admin can add a new country
+Validate if the Admin can delete an existing country
+Validate if an existing country can be updated
+
+Test Condition is the specification that a tester must follow for testing an application.
+
+Example Test Condition: In the above example, if we were to test the scenario 1, we can test the following conditions:
+
+Enter the country’s name as “India”(valid)and check for the addition of the country
+Enter a blank and check if the country gets added.
+In each case, the specific data is described and the goal of the test is much more precise.
+
+Test case:
+
+>It is a step by step by procedure that is used to test an application
+
+Test case template includes Test Suit ID, Test Data, Test procedure, Actual results, Expected results etc.
+
+Example: We need to verify the login button in an application,
+The steps include:
+a) Launch the application.
+b) Verify if the login button is displaying or not.
 
 
 
